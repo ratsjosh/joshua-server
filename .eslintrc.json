@@ -1,3 +1,9 @@
 {
-    "extends": "airbnb-base"
+    "extends": "airbnb-base",
+    "rules": {
+        "no-use-before-define": ["error", { "functions": false, "classes": true }],
+        "no-shadow": ["error", { "builtinGlobals": false, "hoist": "functions", "allow": ["err"] }],
+        "consistent-return": ["error", { "treatUndefinedAsUnspecified": true }],
+        "camelcase": ["error", { "ignoreDestructuring": true }]
+    }
 }

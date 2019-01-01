@@ -4,6 +4,6 @@
         "no-use-before-define": ["error", { "functions": false, "classes": true }],
         "no-shadow": ["error", { "builtinGlobals": false, "hoist": "functions", "allow": ["err"] }],
         "consistent-return": ["error", { "treatUndefinedAsUnspecified": true }],
-        "camelcase": ["error", { "ignoreDestructuring": true }]
+        "camelcase": ["error", { "ignoreDestructuring": true, "allow" : ["access_type"] }]
     }
 }
